@@ -1,0 +1,500 @@
+   30  git log
+   31  git remote -v
+   32  git pull
+   33  ls -al
+   34  git log
+   35  git status
+   36  git branch -a
+   37  cd ..
+   38  mkdir git-task
+   39  git clone git@github.com:MarynaHolub/git-task.git
+   40  ls -al
+   41  cd git-task/
+   42  ls -al
+   43  nano task1.txt
+   44  cat task1.txt
+   45  git status
+   46  git add task1.txt
+   47  git status
+   48  git commit -m "add new file task1.txt"
+   49  git log
+   50  git remote -v
+   51  git push
+   52  ls -al
+   53  git log
+   54  git config --global user.name "MarynaHolub"
+   55  git config --global user.email "maryna.holub27@gmail.com"
+   56  git config --global -l
+   57  cd C:\Users\ICH\Desktop\GIT
+   58  cd C:\Users\ICH\Desktop\GIT
+   59  C:/Users/ICH/Desktop/GIT
+   60  cd C:/Users/ICH/Desktop/GIT
+   61  ls -al
+   62  mkdir git_intro 
+   63  ls -al
+   64  git init git_intro
+   65  cd /git_intro
+   66  cd git_intro
+   67  ls -al
+   68  cp  C:/Users/ICH/Desktop/GIT/git-github.png  C:/Users/ICH/Desktop/GIT/git_intro
+   69  ls -al
+   70  git status
+   71  git add git-github.png
+   72  git status
+   73  git commit -m "added photo"
+   74  git log
+   75  git remote add origin git@github.com:MarynaHolub/git_intro.git
+   76  git remote -v
+   77  git push -u origin main
+   78  cd C:/Users/ICH/Desktop/GI
+   79  cd C:/Users/ICH/Desktop/GIT
+   80  ls -al
+   81  cd git_intro
+   82  ls -al
+   83  date >> file.txt
+   84  echo "Hello Guthub" >> file.txt
+   85  ls -al
+   86  git status
+   87  git add file.txt
+   88  git status
+   89  git commit -m "add new file.txt"
+   90  git status
+   91  git log
+   92  git push
+   93  cd ..
+   94  cd C:/Users/ICH/Desktop/GIT
+   95  git clone git@github.com:MarynaHolub/PrTasks.git
+   96  cd PrTasks
+   97  ls -al
+   98  ls -al
+   99  git status
+  100  git add .
+  101  git status
+  102  git commit -m "added 2 files"
+  103  git status
+  104  git push
+  105  git log
+  106  git status
+  107  cd C:/Users/ICH/Desktop/GIT
+  108  ды -фд
+  109  ls -al
+  110  cd PrTasks
+  111  git status
+  112  git status
+  113  git add .
+  114  git status
+  115  git commit -m "changed index.js"
+  116  git status
+  117  git push git@github.com:MarynaHolub/PrTasks.git
+  118  git status
+  119  cd C:/Users/ICH/Desktop/GIT
+  120  ls -al
+  121  git status
+  122  cd 200226-wdm
+  123  git status
+  124  git pull
+  125  ls -al
+  126  nano Song.txt
+  127  git status
+  128  git add .
+  129  git status
+  130  git commit -m "add hew file Song.txt"
+  131  git log
+  132  git branch Test
+  133  git status
+  134  git branch -a
+  135  git checkout Test
+  136  git log
+  137  git checkout main
+  138  git branch -d Test
+  139  git branch -a
+  140  git checkout -b NewBranch
+  141  ls -al
+  142  date >> dateFile.txt
+  143  git status
+  144  git add dateFile.txt
+  145  git commit -m "add"
+  146  git log
+  147  ls -al
+  148  git checkout main
+  149  ls -al
+  150  git checkout NewBranch
+  151  git status
+  152  git log
+  153  git branch -v
+  154  git branch -a
+  155  nano Song.txt
+  156  git status
+  157  git commit -am "add 1 lines in Song"
+  158  git log
+  159  git log --oneline
+  160  cat Song.txt
+  161  git branch
+  162  git log --oneline
+  163  git checkout main
+  164  ls -al
+  165  cat Song.txt
+  166  git checkout NewBranch
+  167  ls -al
+  168  cat Song.txt
+  169  git log -oneline
+  170  git log --oneline
+  171  git log
+  172  git checkout  1c83afe2
+  173  ls -al
+  174  cat Song.txt
+  175  git log
+  176  git checkout  61882e420
+  177  ls -al
+  178  ls -al
+  179  cp README.md C:/Users/ICH/Desktop/Linux-GIT/Git-lessons
+  180  git chtckout NewBranch
+  181  git chtckout main
+  182  git checkout main
+  183  > file1.log
+  184  mkdir tmp
+  185  git status
+  186  > tmp/dmp
+  187  git status
+  188  nano Readme.md
+  189  git status
+  190  > .env
+  191  ls -al
+  192  nano .gitignore
+  193  git status
+  194  ls -al
+  195  > error.log
+  196  git status
+  197  nano .gitignore
+  198  git status
+  199  git add .gitignore
+  200  git status
+  201  git commit -m "added file .gitignore"
+  202  git log
+  203  git checkout NewBranch
+  204  git status
+  205  ls -al
+  206  git checkout main
+  207  git status
+  208  git add error.log
+  209  git checkout NewBranch.
+  210  git checkout NewBranch
+  211  git checkout main
+  212  git status
+  213  git add README.md -m "edit readme file"
+  214  git status
+  215  git add README.md -m "edit readme file"
+  216  git status
+  217  git add .
+  218  git status
+  219  nano Song.txt
+  220  git status
+  221  git checkout git NewBranch
+  222  git checkout NewBranch
+  223  git stash --help
+  224  git stash save "edit Song.txt"
+  225  git status
+  226  git checkout NewBranch
+  227  date >> date.txt
+  228  git status
+  229  git commit -m "new fike date.txt"
+  230  git add .
+  231  git commit -m "new file date.txt"
+  232  git log
+  233  git status
+  234  git switch main
+  235  git branch
+  236  git stash list
+  237  git stash pop stash@{0}
+  238  git stash list
+  239  ls -al
+  240  git log
+  241  rm -rf error.log
+  242  ls -al
+  243  git status
+  244  git restore error.log
+  245  ls -al
+  246  git status
+  247  rm -rf error.log
+  248  ls -al
+  249  git status
+  250  git add errror.log
+  251  git add error.log
+  252  git status
+  253  git commit -m "delete error.log"
+  254  git log
+  255  ls -al
+  256  nano Song.txt
+  257  git checkout .
+  258  cat Song.txt
+  259  git status
+  260  ls -al
+  261  mkdir TMP
+  262  > TMP/333
+  263  ls -al
+  264  ls -al TMP/
+  265  cd .
+  266  ls -al
+  267  git clean -xdn
+  268  git clean -xdf
+  269  ls -al
+  270  git log --oneline
+  271  git show 0d4efc2
+  272  git show -s --pretty=raw 0310951
+  273  git checkout NewBranch
+  274  git log
+  275  git checkout 61882e420
+  276  ls -al
+  277  git checkout NewBranch
+  278  git status
+  279  git push
+  280  git push --set-upstream origin NewBranch
+  281  git checkout main
+  282  git log
+  283  git push
+  284  git branch -v
+  285  history
+  286  cd C:/Users/ICH/Desktop/GIT
+  287  ls -al
+  288  cd git_intro
+  289  git status
+  290  git log
+  291  git branch
+  292  git branch gitIgnore
+  293  git branch
+  294  git switch gitIgnore
+  295  > tmp.log
+  296  ls -al
+  297  git status
+  298  git add .
+  299  git status
+  300  git commit -m "added tmp.log"
+  301  git status
+  302  git push git@github.com:MarynaHolub/git_intro.git-u origin main
+  303  git status
+  304  git log
+  305  git remote add origin git@github.com:MarynaHolub/git_intro.git
+  306  git remote -v
+  307  git push
+  308   git push --set-upstream origin gitIgnore
+  309  rm -rf tmp.log
+  310  ls -al
+  311  git status
+  312  git rm
+  313  git rm tmp.log
+  314  git status
+  315  git commit -m "deleted tmp.log"
+  316  git status
+  317  git log
+  318  git push
+  319  git checkout 89f49076
+  320  ls -al
+  321  cp tmp.log C:/Users\ICH\Desktop\GIT
+  322  cp tmp.log C:\Users\ICH\Desktop\GIT
+  323  git checkout gitIgnore
+  324  history
+  325  nano .gitignore
+  326  ls -al
+  327  > test.log
+  328  ls -al
+  329  git status
+  330  git add .
+  331  git status
+  332  git commit -m "added .gitignore"
+  333  git status
+  334  git push
+  335  ls -al
+  336  rm -rf  C:UsersICHDesktopGIT
+  337  ls -al
+  338  git status
+  339  git rm  C:UsersICHDesktopGIT
+  340  git status
+  341  git add .
+  342  git status
+  343  git commit -m "deleted  C:UsersICHDesktopGIT"
+  344  git status
+  345  git push
+  346  git log
+  347  history
+  348  ls -al
+  349  nano .gitignore
+  350  cd ..
+  351  ls -al
+  352  git clone git@github.com:MarynaHolub/git-branch.git
+  353  ls -al
+  354  cd git-branch
+  355  ls -al
+  356  git status
+  357  git log
+  358  git branch gitignore
+  359  git branch
+  360  git switch gitignore
+  361  ls -al
+  362  nano .gitignore
+  363  cat .gitignore
+  364  ls -al
+  365  git status
+  366  git add .
+  367  git status
+  368  git commit -m "added .gitignore"
+  369  git log
+  370  git push
+  371  git push --set-upstream origin gitignore
+  372  git log
+  373  cd C:/Users/ICH/Desktop/GIT
+  374  ls -al
+  375  cd 200226-wdm
+  376  git status
+  377  git pull
+  378  git log
+  379  git branch -v
+  380  git checkout -b Test-merge
+  381  date >> new-File.txt
+  382  git status
+  383  git add .
+  384  git commit -m " added new file"
+  385  echo "Test merge" >> new-File.txt
+  386  git status
+  387  git commit -m "edit file"
+  388  git log
+  389  git status
+  390  git add .
+  391  git commit -m "gggg"
+  392  git status
+  393  git log
+  394  git merge Test-merge
+  395  switch main
+  396  git switch main
+  397  git merge Test-merge
+  398  git log
+  399  ls -al
+  400  date >> date '+%T' >> new-File.txt
+  401  git status
+  402  git add .
+  403  git commit -m " added time in new-File.txt"
+  404  git log
+  405  git switch Test-merge
+  406  date >> date.txt
+  407  git status
+  408  git add .
+  409  git commit -m "added date.txt"
+  410  git switch main
+  411  git merge Test-merge
+  412  git log
+  413  nano Song.txt
+  414  git status
+  415  git add .
+  416  git commit -m "hfg"
+  417  git switch Test-merge
+  418  git rebase main
+  419  git log --oneline
+  420  git log --all --online --graph --decorate
+  421  git log --all --oneline --graph --decorate
+  422  git status
+  423  git switch main
+  424  nano Song.txt
+  425  got commit -am "edit sang  "
+  426  git log
+  427  git commit -am "edit sang  "
+  428  git log
+  429  git commit --amend -m"edit file Song.txt"
+  430  nano Song.txt
+  431  git commit -am "bad kommit"
+  432  git log
+  433  git reset HEAD~2
+  434  git status
+  435  nano Song.txt
+  436  git log
+  437  git commit -m "Finished"
+  438  git commit -am "Finished"
+  439  git log
+  440  git log --oneline
+  441  git log --oneline -g
+  442  git log --oneline 
+  443  git branch -v
+  444  git log
+  445  git branch -v
+  446  git branch practice
+  447  git switch practice
+  448  git switch NewBranch
+  449  ls -al
+  450  nano date.txt
+  451  git status
+  452  git add .
+  453  git commit -m "modifed date.txt"
+  454  git status
+  455  nano file1.log
+  456  git status
+  457  git log
+  458  git commit  --amend -m "is modifed date.txt + file file1.log"
+  459  git log
+  460  git show  3f736b3b2
+  461  git status
+  462  git add file1.log
+  463  git status
+  464  git commit  --amend -m "is modifed date.txt + file file1.log"
+  465  git log
+  466  git show fbc11c753
+  467  git push
+  468  git revert 
+  469  git revert HEAD
+  470  git log
+  471  cat file1.log
+  472  history
+  473  cd C:/Users/ICH/Desktop/GIT
+  474  cd HW-GIT-12
+  475  git clone git@github.com:MarynaHolub/HW-GIT-12.git
+  476  ls -al
+  477  ls -al
+  478  ls -al
+  479  > README.md
+  480  > .gitignore
+  481  ls -al
+  482  git status
+  483  git add .
+  484  git status
+  485  git commit -m "modified README.md and added .gitignore"
+  486  git log
+  487  nano .gitignore
+  488  nano README.md
+  489  git log
+  490  git status
+  491  git add .
+  492  git commit -m "modified files .gitignore README.md"
+  493  git log
+  494  git branch feature
+  495  git switch feature
+  496  git clone git@github.com:MarynaHolub/HW-GIT-12.git
+  497  git branch -v
+  498  clear
+  499  cd C:/Users/ICH/Desktop/GIT
+  500  ls -al
+  501  git clone git@github.com:MarynaHolub/HW-GIT-12.git
+  502  git clone git@github.com:MarynaHolub/HW-GIT-12.git
+  503  cd HW-GIT-12
+  504  git branch feature
+  505  git switch feature
+  506  > .gitignore
+  507  nano .gitignore
+  508  nano README.md
+  509  git log
+  510  git status
+  511  git add .
+  512  git log
+  513  git add
+  514  git add .
+  515  git status
+  516  git commit -m "added .gitignore, modified README.md"
+  517  git log
+  518  git push
+  519  git push --set-upstream origin feature
+  520  git log
+  521  git commit --amend
+  522  git log
+  523  git commit --amend
+  524  git log
+  525  git commit --amend -m " added .gitignore, modified README.md ammend"
+  526  git log
+  527  git switch main
+  528  git merge feature
+  529  history >> tmp.log
